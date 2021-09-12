@@ -14,6 +14,7 @@
 		E522EA4426EE3E1F00EBD86E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E522EA4226EE3E1F00EBD86E /* LaunchScreen.storyboard */; };
 		E522EA4F26EE3E1F00EBD86E /* NoStoryboardAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E522EA4E26EE3E1F00EBD86E /* NoStoryboardAppTests.swift */; };
 		E522EA5A26EE3E1F00EBD86E /* NoStoryboardAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E522EA5926EE3E1F00EBD86E /* NoStoryboardAppUITests.swift */; };
+		E522EA6826EE411F00EBD86E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E522EA6726EE411F00EBD86E /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E522EA5526EE3E1F00EBD86E /* NoStoryboardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoStoryboardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E522EA5926EE3E1F00EBD86E /* NoStoryboardAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoStoryboardAppUITests.swift; sourceTree = "<group>"; };
 		E522EA5B26EE3E1F00EBD86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E522EA6726EE411F00EBD86E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		E522EA3626EE3E1D00EBD86E /* NoStoryboardApp */ = {
 			isa = PBXGroup;
 			children = (
+				E522EA6926EE412700EBD86E /* Views */,
 				E522EA3726EE3E1D00EBD86E /* AppDelegate.swift */,
 				E522EA3926EE3E1D00EBD86E /* SceneDelegate.swift */,
 				E522EA3B26EE3E1D00EBD86E /* ViewController.swift */,
@@ -123,6 +126,14 @@
 				E522EA5B26EE3E1F00EBD86E /* Info.plist */,
 			);
 			path = NoStoryboardAppUITests;
+			sourceTree = "<group>";
+		};
+		E522EA6926EE412700EBD86E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E522EA6726EE411F00EBD86E /* MainView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E522EA3C26EE3E1D00EBD86E /* ViewController.swift in Sources */,
+				E522EA6826EE411F00EBD86E /* MainView.swift in Sources */,
 				E522EA3826EE3E1D00EBD86E /* AppDelegate.swift in Sources */,
 				E522EA3A26EE3E1D00EBD86E /* SceneDelegate.swift in Sources */,
 			);
